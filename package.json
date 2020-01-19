@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/EdeniltonBorba/Node-Express-Handlebars/issues"
   },
-  "homepage": "https://github.com/EdeniltonBorba/Node-Express-Handlebars#readme"
+  "homepage": "https://github.com/EdeniltonBorba/Node-Express-Handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
