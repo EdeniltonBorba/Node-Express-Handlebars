@@ -1,0 +1,66 @@
+body {
+    background: yellow;
+    text-align: center;
+  }
+  
+  textarea {
+    resize: vertical;
+    width: 350px;
+    height: 50px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    height: 30px;
+    line-height: 30px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left {
+    margin-right: 20px;
+    width: 450px;
+  }
+  
+  .right {
+    margin-left: 20px;
+    width: 450px;
+  }
+  
+  .left li {
+    margin-bottom: 4px;
+  }
+  
+  .leftBurger {
+    background: greenyellow;
+    color: blue;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  .right li {
+    background: #f8f9fa;
+    color: lightgray;
+    margin-bottom: 4px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+  }
+  
+  .change-devoured {
+    margin-right: 8px;
+  }
