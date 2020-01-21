@@ -11,13 +11,14 @@
                 {{#unless devoured}}
                 <li>
                     <div class="row">
+                        <div class="col-sm-8 leftBurger">
+                            {{burger_name}}
+                        </div>
+                        
                         <div class="col-sm-4">
                             <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
                                 Devour it!
                             </button>
-                        </div>
-                        <div class="col-sm-8 leftBurger">
-                            {{burger_name}}
                         </div>
                     </div>
                 </li>
