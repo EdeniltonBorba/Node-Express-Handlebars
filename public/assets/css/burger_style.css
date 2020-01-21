@@ -2,6 +2,10 @@ body {
     background: #f9ca24;
     text-align: center;
   }
+
+  h1 {
+      color: red;
+  }
   
   textarea {
     resize: vertical;
@@ -39,8 +43,8 @@ body {
   }
   
   .leftBurger {
-    background: greenyellow;
-    color: blue;
+    background: #e67e22;
+    color: #1e3799;
     width: 350px;
     border-radius: 15px;
   }
@@ -54,7 +58,7 @@ body {
   }
   
   .btn {
-    background-color: #007bff;
+    background-color: #1e3799;
     color: white;
     height: 40px;
     width: 80px;
