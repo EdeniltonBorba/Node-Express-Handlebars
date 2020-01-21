@@ -1,1 +1,49 @@
-teste
+<h1>Eat-Da-Burger!</h1>
+
+<img src="/assets/img/cheeseburger.jpg" alt="Burger"
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 left">
+            <ul>
+                {{#each burgers}}
+                {{#unless devoured}}
+                <li>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+                                Devour it!
+                            </button>
+                        </div>
+                        <div class="col-sm-8 leftBurger">
+                            {{burger_name}}
+                        </div>
+                    </div>
+                </li>
+                {{/unless}}
+                {{/each}}
+            </ul>
+        </div>
+        <div class="col-sm-4 right">
+            <ul>
+                {{#each burgers}}
+                {{#if devoured}}
+                <li>
+                    {{burger_name}}
+                </li>
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<form class="create-form">
+
+    <div class="form-group">
+        <textarea class="form-control" rows="1" id="burger"></textarea>
+    </div>
+    <br>
+    <button class="btn" type="submit" name="submit">Submit</button> <br><br>
+    <label for="submit">Enter a burger you want to eat Click the "Submit" button!</label>
+</form>
